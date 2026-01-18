@@ -72,17 +72,13 @@ BuddyGuard/
 python 
 ```
 git clone https://github.com/yourusername/anti-ragging-violence-detection.git
-
 cd anti-ragging-violence-detection
 ```
 ### 2️ Create a Virtual Environment
 python 
 ```
 python -m venv venv
-
-source venv/bin/activate
-
-# venv\Scripts\activate
+venv\Scripts\activate
 ```
 ### 3️ Install Dependencies
 python 
