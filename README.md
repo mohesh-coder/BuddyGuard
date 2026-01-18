@@ -84,21 +84,20 @@ source venv/bin/activate
 
 # venv\Scripts\activate
 ```
+### 3️ Install Dependencies
 python 
 ```
-### 3️ Install Dependencies
-
 pip install -r requirements.txt
 ```
 
 Results Snapshot (from provided model)
 --------------------------------------
 
-*   Validation Accuracy: **91.8%**
+-   Validation Accuracy: **91.8%**
     
-*   Validation Loss: **0.234**
+-   Validation Loss: **0.234**
     
-*   Strong at capturing motion patterns (pushing, grouping, sudden aggression)
+-   Strong at capturing motion patterns (pushing, grouping, sudden aggression)
     
 
 → See notebooks/noragproject.ipynb for loss curves, confusion matrix, and qualitative examples.
@@ -110,19 +109,19 @@ Ethical & Deployment Considerations
 
 Must-have safeguards before campus use:
 
-*   Human-in-the-loop verification of every alert
+-   Human-in-the-loop verification of every alert
     
-*   Face anonymization / blurring in stored footage
+-   Face anonymization / blurring in stored footage
     
-*   Data retention policy (delete non-alert clips immediately)
+-   Data retention policy (delete non-alert clips immediately)
     
-*   Institutional ethics committee / IRB approval
+-   Institutional ethics committee / IRB approval
     
-*   Student consent & transparency (notices: "AI-monitored area for safety")
+-   Student consent & transparency (notices: "AI-monitored area for safety")
     
-*   Compliance with UGC anti-ragging regs + DPDP Act 2023
+-   Compliance with UGC anti-ragging regs + DPDP Act 2023
     
-*   Avoid over-surveillance perception — focus only on violence indicators
+-   Avoid over-surveillance perception — focus only on violence indicators
     
 
 **Recommended pilot**: 2–4 cameras in one hostel block → alerts to warden/security via Telegram/WhatsApp.
@@ -130,15 +129,15 @@ Must-have safeguards before campus use:
 Future Roadmap
 --------------
 
-*   Fine-tune on India-specific campus footage (sports vs. aggression differentiation)
+-   Fine-tune on India-specific campus footage (sports vs. aggression differentiation)
     
-*   Edge deployment (TensorFlow Lite + Raspberry Pi / Jetson Nano)
+-   Edge deployment (TensorFlow Lite + Raspberry Pi / Jetson Nano)
     
-*   Multi-class expansion (verbal harassment proxies, group size estimation)
+-   Multi-class expansion (verbal harassment proxies, group size estimation)
     
-*   Alert integration (campus security dashboard, helpline escalation)
-    
-*   Collaboration with anti-ragging NGOs (SAVE, Coalition to Uproot Ragging)
+-   Alert integration (campus security dashboard, helpline escalation)
+   
+-   Collaboration with anti-ragging NGOs (SAVE, Coalition to Uproot Ragging)
     
 
 License
